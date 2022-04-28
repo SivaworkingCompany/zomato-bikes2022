@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Zomato.api.impl.TestDefaultHelloService
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.858 sec <<< FAILURE!
+testSayHello(Zomato.api.impl.TestDefaultHelloService)  Time elapsed: 1.745 sec  <<< ERROR!
+org.apache.catalina.LifecycleException: Failed to start component [StandardServer[-1]]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1131)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:302)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:443)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:732)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:341)
+	at Zomato.api.impl.TestDefaultHelloService.startTomcat(TestDefaultHelloService.java:68)
+
